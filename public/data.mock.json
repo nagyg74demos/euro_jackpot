@@ -1,0 +1,121 @@
+{
+  "last": {
+    "nr": 408,
+    "currency": "EUR",
+    "date": {
+      "full": "Die Lottozahlen vom Freitag, den 10.01.2020",
+      "day": 10,
+      "month": 1,
+      "year": 2020,
+      "hour": 21,
+      "minute": 0,
+      "dayOfWeek": "Freitag"
+    },
+    "closingDate": "10.01.2020, 19:00",
+    "lateClosingDate": "10.01.2020, 20:10",
+    "drawingDate": "10.01.2020, 21:00",
+    "numbers": [
+      4,
+      14,
+      25,
+      34,
+      49
+    ],
+    "euroNumbers": [
+      4,
+      9
+    ],
+    "jackpot": "40",
+    "marketingJackpot": "40",
+    "specialMarketingJackpot": "40",
+    "climbedSince": 4,
+    "Winners": 934401,
+    "odds": {
+      "rank0": {
+        "winners": 0,
+        "specialPrize": 0,
+        "prize": 0
+      },
+      "rank1": {
+        "winners": 0,
+        "specialPrize": 0,
+        "prize": 4000000000
+      },
+      "rank2": {
+        "winners": 2,
+        "specialPrize": 0,
+        "prize": 103791540
+      },
+      "rank3": {
+        "winners": 9,
+        "specialPrize": 0,
+        "prize": 8140510
+      },
+      "rank8": {
+        "winners": 38729,
+        "specialPrize": 0,
+        "prize": 1950
+      },
+      "rank9": {
+        "winners": 41380,
+        "specialPrize": 0,
+        "prize": 1770
+      },
+      "rank10": {
+        "winners": 68819,
+        "specialPrize": 0,
+        "prize": 1520
+      },
+      "rank4": {
+        "winners": 55,
+        "specialPrize": 0,
+        "prize": 444020
+      },
+      "rank5": {
+        "winners": 858,
+        "specialPrize": 0,
+        "prize": 25610
+      },
+      "rank6": {
+        "winners": 1432,
+        "specialPrize": 0,
+        "prize": 11930
+      },
+      "rank11": {
+        "winners": 199781,
+        "specialPrize": 0,
+        "prize": 950
+      },
+      "rank7": {
+        "winners": 2801,
+        "specialPrize": 0,
+        "prize": 5230
+      },
+      "rank12": {
+        "winners": 580535,
+        "specialPrize": 0,
+        "prize": 800
+      }
+    }
+  },
+  "next": {
+    "nr": 409,
+    "currency": "EUR",
+    "date": {
+      "full": "Die Lottozahlen vom Freitag, den 17.01.2020",
+      "day": 17,
+      "month": 1,
+      "year": 2020,
+      "hour": 21,
+      "minute": 0,
+      "dayOfWeek": "Freitag"
+    },
+    "closingDate": "17.01.2020, 19:00",
+    "lateClosingDate": "17.01.2020, 20:10",
+    "drawingDate": "17.01.2020, 21:00",
+    "jackpot": "53",
+    "marketingJackpot": "53",
+    "specialMarketingJackpot": "53",
+    "climbedSince": 5
+  }
+}
