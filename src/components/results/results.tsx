@@ -77,11 +77,11 @@ export const Results: React.FC = () => {
     return (
         ( isLoaded ) ? (
             <article className="results">
-                <section className="result__legend">
-                    <span>EuroJackpot</span>
-                    Results for {( moment(momentDrawDate).format(longDateFormat) )}
+                <section className="results__legend">
+                    <span className="euro-jackpot-color">EuroJackpot</span> Results
+                    for {( moment(momentDrawDate).format(longDateFormat) )}
                 </section>
-                <section className="result__numbers">
+                <section className="results__numbers">
                     <ul className="draw-result">
                         {
                             currentDraw?.numbers!
@@ -96,10 +96,9 @@ export const Results: React.FC = () => {
                         }
                     </ul>
                 </section>
-
-                <section className="result__body">
-                    <div className="result__tiers">
-                        <table>
+                <section className="results__body">
+                    <div className="results__tiers">
+                        <table className="results__table">
                             <thead>
                             <tr>
                                 <th>Tier</th>
@@ -117,15 +116,15 @@ export const Results: React.FC = () => {
                             </tbody>
                         </table>
                     </div>
-                    <div className="result__cards">
-                        <div className="result__card card">
+                    <div className="results__cards">
+                        <section className="results__card card">
                             <h2 className="card__header">
                                 The EuroJackpot numbers for {shortDate}
                             </h2>
-                            <p className="card__text">The 408th draw for the EuroJackpot was held on {shortDate}, as
+                            <p className="card__text"><strong>The 408th draw for the EuroJackpot was held on {shortDate},</strong> as
                                 usual at {moment(momentDrawDate).format('h a')} in Helsinki.</p>
-                        </div>
-                        <div className="result__card card">
+                        </section>
+                        <section className="results__card card">
                             <h2 className="card__header">
                                 The EuroJackpot numbers for {shortDate}
                             </h2>
@@ -137,7 +136,7 @@ export const Results: React.FC = () => {
                             <p className="card__text">
                                 Lottoland published the draw results immediately after the draw on {shortDate}.
                             </p>
-                        </div>
+                        </section>
                         {/* TODO add cards */}
                     </div>
                 </section>

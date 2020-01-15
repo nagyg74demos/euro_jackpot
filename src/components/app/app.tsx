@@ -4,13 +4,13 @@ import { Results } from '../results/results';
 
 export const App = () => {
     return (
-        <div className="App">
-            <header className="AppHeader">
+        <div className="app">
+            <header className="app__header">
                 {/* TODO add navigation */}
             </header>
-            <article>
+            <article className="article container">
                 {/* TODO add subnavigation */}
-                <header className="ArticleHeader">
+                <header className="article__header">
                     <h1>EuroJackpot Results & Winning Numbers</h1>
                     { /* TODO Draw selector  */}
                 </header>

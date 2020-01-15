@@ -1,5 +1,19 @@
-.PrizeTier {
- td {
-   padding: 30px;
- }
+.prize-tier {
+  td {
+    border: none;
+    font-weight: 200;
+    min-height: 35px;
+    position: relative;
+    padding: 14px 21px;
+  }
+}
+
+.prize-tier__rank {
+  width: 10%;
+}
+
+.prize-tier__match,
+.prize-tier__winner-count,
+prize-tier__prize {
+  width: 30%;
 }

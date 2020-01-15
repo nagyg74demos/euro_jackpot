@@ -1,0 +1,57 @@
+$fontPath: '../fonts/';
+
+@font-face {
+  font-family: 'Daxline';
+  src: url('#{$fontPath}ff-daxline-pro-normal-500.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daxline';
+  src: url('#{$fontPath}ff-daxline-pro-normal-200.woff2') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daxline';
+  src: url('#{$fontPath}ff-daxline-pro-normal-700.woff2') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daxline';
+  src: url('#{$fontPath}ff-daxline-pro-normal-900.woff2') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daxline Light';
+  src: url('#{$fontPath}ff-daxline-pro-normal-200.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daxline Bold';
+  src: url('#{$fontPath}ff-daxline-pro-normal-700.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daxline Heavy';
+  src: url('#{$fontPath}ff-daxline-pro-normal-900.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LL Icon';
+  src: url('#{$fontPath}ll-icon-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

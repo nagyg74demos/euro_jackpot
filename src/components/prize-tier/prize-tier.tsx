@@ -28,11 +28,11 @@ interface ITier {
 export const PrizeTier: React.FC<ITier> = ({ prize, rank }: ITier) => {
     return (
         ( rank > 0 ) ? (
-            <tr className="PrizeTier">
-                <td>{romanize(rank)}</td>
-                <td>{tierMatch[rank][0]}&nbsp;Numbers&nbsp;+ {tierMatch[rank][1]}&nbsp;Euronumbers</td>
-                <td><NumberFormat value={prize.winners} displayType={'text'} thousandSeparator={true} suffix={'x'} /></td>
-                <td><NumberFormat value={prize.prize} displayType={'text'} thousandSeparator={true} prefix={'€'} decimalScale={2} fixedDecimalScale={true} /></td>
+            <tr className="prize-tier">
+                <td className="prize-tier__rank">{romanize(rank)}</td>
+                <td className="prize-tier__match">{tierMatch[rank][0]}&nbsp;Numbers&nbsp;+ {tierMatch[rank][1]}&nbsp;Euronumbers</td>
+                <td className="prize-tier__winner-count"><NumberFormat value={prize.winners} displayType={'text'} thousandSeparator={true} suffix={'x'} /></td>
+                <td className="prize-tier__prize"><NumberFormat value={prize.prize} displayType={'text'} thousandSeparator={true} prefix={'€'} decimalScale={2} fixedDecimalScale={true} /></td>
             </tr>
         ) : null
     );
