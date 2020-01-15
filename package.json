@@ -43,6 +43,7 @@
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "jest-fetch-mock": "^3.0.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.0",
+    "serialize-javascript" :"^2.1.1"
   }
 }
