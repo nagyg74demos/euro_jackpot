@@ -1,6 +1,6 @@
 import React from 'react';
-import './app.css';
-import Results from '../results/results';
+import './app.scss';
+import { Results } from '../results/results';
 
 export const App = () => {
     return (

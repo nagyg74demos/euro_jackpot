@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { render, cleanup, act, waitForElement } from '@testing-library/react';
-import Results from './results';
+import { Results } from './results';
 import mockData from '../../../public/data.mock.json';
 
 describe('Results Component', () => {

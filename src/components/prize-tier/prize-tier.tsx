@@ -1,7 +1,7 @@
 import React from 'react';
 import { romanize } from 'romans';
 import NumberFormat from 'react-number-format';
-import './prize-tier.css'
+import './prize-tier.scss'
 import { Prize as IPrize } from '../../interfaces/prize';
 
 const tierMatch = [
@@ -30,7 +30,7 @@ export const PrizeTier: React.FC<ITier> = ({ prize, rank }: ITier) => {
         ( rank > 0 ) ? (
             <tr className="PrizeTier">
                 <td>{romanize(rank)}</td>
-                <td>{tierMatch[rank][0]}&nbsp;Numbers&nbsp+ {tierMatch[rank][1]}&nbsp;Euronumbers</td>
+                <td>{tierMatch[rank][0]}&nbsp;Numbers&nbsp;+ {tierMatch[rank][1]}&nbsp;Euronumbers</td>
                 <td><NumberFormat value={prize.winners} displayType={'text'} thousandSeparator={true} suffix={'x'} /></td>
                 <td><NumberFormat value={prize.prize} displayType={'text'} thousandSeparator={true} prefix={'€'} decimalScale={2} fixedDecimalScale={true} /></td>
             </tr>

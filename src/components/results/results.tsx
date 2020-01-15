@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './results.css';
+import './results.scss';
 import { PrizeTier } from '../prize-tier/prize-tier';
 import { Result as IResult } from '../../interfaces/result';
 import { Prize as IPrize } from '../../interfaces/prize';
@@ -7,7 +7,7 @@ import moment from 'moment';
 
 const apiUrl: string = process.env.REACT_APP_APIURL || '';
 
-const Results: React.FC = () => {
+export const Results: React.FC = () => {
     const shortDateFormat = 'D.MM.YYYY';
     const longDateFormat = 'dddd D MMM YYYY';
 
@@ -145,5 +145,3 @@ const Results: React.FC = () => {
         ) : null
     )
 };
-
-export default Results;
