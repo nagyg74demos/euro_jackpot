@@ -137,7 +137,6 @@ export const Results: React.FC = () => {
                                 Lottoland published the draw results immediately after the draw on {shortDate}.
                             </p>
                         </section>
-                        {/* TODO add cards */}
                     </div>
                 </section>
             </article>
