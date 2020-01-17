@@ -1,0 +1,263 @@
+{
+  "main": {
+    "items": [
+      {
+        "text": "EuroMillions",
+        "url": "https://www.lottoland.com/en/euromillions",
+        "target": "_blank"
+      },
+      {
+        "text": "EuroJackpot",
+        "url": "https://www.lottoland.com/en/eurojackpot",
+        "target": "_blank"
+      },
+      {
+        "text": "German Lotto",
+        "url": "https://www.lottoland.com/en/german-lottery",
+        "target": "_blank"
+      },
+      {
+        "text": "More Jackpots",
+        "url": "https://www.lottoland.com/en/lotteries",
+        "target": "_blank"
+      },
+      {
+        "text": "Promotions",
+        "url": "https://www.lottoland.com/en/promotions",
+        "target": "_blank"
+      },
+      {
+        "text": "Scratchcards",
+        "url": "https://www.lottoland.com/en/scratchcards",
+        "target": "_blank"
+      },
+      {
+        "text": "Instant Win",
+        "url": "https://www.lottoland.com/en/instantwin",
+        "target": "_blank"
+      },
+      {
+        "text": "Games",
+        "url": "https://www.lottoland.com/en/games",
+        "target": "_blank"
+      }
+    ],
+    "classes": "main-menu"
+  },
+  "lottery": {
+    "title": "Lottery",
+    "items": [
+      {
+        "text": "Lottery Results",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Jackpots",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Help & FAQ",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Lotto Comparison",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Lottoland Syndicates",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Lottoland Apps",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Lottoland Promotions",
+        "url": "",
+        "target": "_blank"
+      }
+    ],
+    "classes": "footer-menu"
+  },
+  "info": {
+    "title": "Info",
+    "items": [
+      {
+        "text": "Guaranteed Payout",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Privacy Policy",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Terms and Conditions",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "What is Lotto Betting",
+        "url": "",
+        "target": "_blank"
+      }
+    ],
+    "classes": "footer-menu"
+  },
+  "contact": {
+    "title": "Contact",
+    "items": [
+      {
+        "text": "About Us",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Contact Us",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Affiliate program",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Lottoland B2B",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Careers",
+        "url": "",
+        "target": "_blank"
+      }
+    ],
+    "classes": "footer-menu"
+  },
+  "gamble_safely": {
+    "title": "Gamble Safely",
+    "items": [
+      {
+        "text": "Gamble Safely",
+        "url": "",
+        "target": "_blank"
+      }
+    ],
+    "classes": "footer-menu"
+  },
+  "country": {
+    "title": "Country",
+    "items": [
+      {
+        "text": "Österreich",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Magyarország",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "United Kingdom",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Ireland",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Australia",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "América Latina",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Sverige",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "South Africa",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "India",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Italia",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Gibraltar",
+        "url": "",
+        "target": "_blank"
+      }
+    ],
+    "classes": "footer-menu"
+  },
+  "language": {
+    "title": "Language",
+    "items": [
+      {
+        "text": "English (Worldwide)",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Deutsch",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Slovak",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Polski",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Português (Brasil)",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "Japanese",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "English (New Zealand)",
+        "url": "",
+        "target": "_blank"
+      },
+      {
+        "text": "English (Malta)",
+        "url": "",
+        "target": "_blank"
+      }
+    ],
+    "classes": "footer-menu"
+  }
+}
