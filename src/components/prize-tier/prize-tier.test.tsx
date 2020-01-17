@@ -14,10 +14,9 @@ describe('Prize Tier Component', () => {
                 winners: 8,
                 specialPrize: 9,
                 prize: 3000,
-            }
-        ;
+            };
+
         const wrapper = shallow(<PrizeTier prize={prize} rank={1}/>);
-        console.log(wrapper.debug());
 
         expect(wrapper.find('.prize-tier__rank').exists()).toBeTruthy();
         expect(wrapper.find('.prize-tier__rank').text()).toEqual('I');
